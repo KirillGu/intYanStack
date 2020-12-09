@@ -3,7 +3,7 @@ import json
 import yadisk
 #g = requests.get('https://cloud-api.yandex.net/v1/disk/resources?' ,
 #params={'path': '/'},
-#headers={"Authorization": "OAuth AgAAAABKfUYlAAbBdsmIa8C0tkb1r_Y6ls8NPfI"})
+#headers={"Authorization": "token"})
 
 #g.raise_for_status()
 #data = g.json()
