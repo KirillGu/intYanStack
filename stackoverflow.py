@@ -10,7 +10,7 @@ som = BeautifulSoup(q.content , "html.parser")
 
 #print(questions[0].select_one('.question-hyperlink').getText())
 
-convert = som.findAll('div', {'class': 'post-tag'})
+#convert = som.findAll('div', {'class': 'post-tag'})
 #print(len(convert))
 
 convert2 = som.findAll('div', class_ = 'summary')
